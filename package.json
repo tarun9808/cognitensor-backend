@@ -1,0 +1,47 @@
+{
+  "name": "congitensor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.ts"
+  },
+  "author": "Tarun Raghuvanshi",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/communication-email": "^1.0.0",
+    "axios": "^1.4.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "bunyan": "^1.8.15",
+    "bunyan-format": "^0.2.1",
+    "bunyan-rotating-file-stream": "^2.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.1",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "handlebars": "^4.7.7",
+    "jsonwebtoken": "^9.0.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.3.3",
+    "redis": "^4.6.7",
+    "redis-cache": "^0.2.1",
+    "sequelize": "^6.31.1",
+    "sequelize-typescript": "^2.1.5",
+    "touch-cli": "^0.0.1",
+    "umzug": "^3.2.1",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/bunyan": "^1.8.8",
+    "@types/bunyan-format": "^0.2.5",
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "@types/jsonwebtoken": "^9.0.2",
+    "@types/uuid": "^9.0.1",
+    "nodemon": "^2.0.22",
+    "sequelize-cli": "^6.6.0"
+  }
+}
